@@ -4,7 +4,10 @@
     {
         public static void Main()
         {
-            System.Console.WriteLine("Who quests for the twilight dragon?");
+            string regularWords = "hello world";
+            Hex hex = new Hex();
+
+            hex.HexConvert(regularWords);
         }
     }
 }
